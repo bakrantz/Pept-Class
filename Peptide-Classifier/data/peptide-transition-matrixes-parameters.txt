@@ -1,0 +1,61 @@
+Peptide A
+transition_matrix = np.array([
+        [0.80, 0.15, 0.05],
+        [0.50, 0.50, 0.00],
+        [0.15, 0.05, 0.80]
+    ])
+
+Peptide B
+transition_matrix = np.array([
+        [0.50, 0.25, 0.25],
+        [0.30, 0.70, 0.00],
+        [0.15, 0.05, 0.80]
+    ])
+
+Peptide C
+transition_matrix = np.array([
+        [0.70, 0.20, 0.10],
+        [0.70, 0.30, 0.00],
+        [0.15, 0.05, 0.80]
+    ])
+
+Peptide D
+transition_matrix = np.array([
+        [0.90, 0.05, 0.05],
+        [0.35, 0.65, 0.00],
+        [0.15, 0.05, 0.80]
+    ])
+
+Peptide E
+transition_matrix = np.array([
+        [0.35, 0.55, 0.10],
+        [0.40, 0.60, 0.00],
+        [0.15, 0.05, 0.80]
+    ])
+
+Peptide F
+transition_matrix = np.array([
+        [0.20, 0.75, 0.05],
+        [0.08, 0.90, 0.02],
+        [0.19, 0.01, 0.80]
+    ])
+
+Peptide G
+    transition_matrix = np.array([
+        [0.99, 0.00, 0.01, 0.00],  # Species 0 (hidden state, same cond as 0)
+        [0.05, 0.50, 0.40, 0.05],  # Species 1 (State 0)
+        [0.00, 0.50, 0.50, 0.00],  # Species 2 (State 1)
+        [0.02, 0.00, 0.00, 0.98]   # Species 3 (State 2)
+    ])
+    states_lookup = [0, 0, 1, 2]
+Using: generate-single-channel-data-state-species-tracked.py
+
+
+Table 1. Peptide Kinetic Parameters and State Probabilities
+
+Feature	Peptide A	Peptide B	Peptide C	Peptide D	Peptide E	Peptide F	Peptide G
+k (State 0) (s⁻¹)	188.88	417.19	271.29	97.72	516.66	591.25	318.98
+k (State 1) (s⁻¹)	420.28	272.07	541.63	314.41	344.74	97.09	412.15
+k (Overall) (s⁻¹) 37.65	131.17	71.52	42.78	40.60	22.97	4.50
+P(State 0)	  	0.755	0.493	0.757	0.849	0.402	0.115	0.912
+P(State 1)		0.245	0.507	0.243	0.151	0.598	0.885	0.088
