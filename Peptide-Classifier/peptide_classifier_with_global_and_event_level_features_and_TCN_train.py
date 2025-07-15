@@ -30,34 +30,34 @@ def create_peptide_classifier_model(num_peptides, sequence_length, num_features=
     sequence_branch = sequence_input
 
     if use_tcn:
-        sequence_branch = TCN(nb_filters=256, kernel_size=3, dilations=[1, 2, 4], return_sequences=True, dropout_rate=0.7)(sequence_branch)
+        sequence_branch = TCN(nb_filters=256, kernel_size=3, dilations=[1, 2, 4], return_sequences=True, dropout_rate=0.3)(sequence_branch)
         sequence_branch = BatchNormalization()(sequence_branch)
 
-        sequence_branch = TCN(nb_filters=128, kernel_size=3, dilations=[1, 2, 4], return_sequences=True, dropout_rate=0.7)(sequence_branch)
+        sequence_branch = TCN(nb_filters=128, kernel_size=3, dilations=[1, 2, 4], return_sequences=True, dropout_rate=0.3)(sequence_branch)
         sequence_branch = BatchNormalization()(sequence_branch)
 
     if use_lstm:
         sequence_branch = LSTM(512, return_sequences=True)(sequence_branch)
         sequence_branch = BatchNormalization()(sequence_branch)
-        sequence_branch = Dropout(0.7)(sequence_branch)
+        sequence_branch = Dropout(0.3)(sequence_branch)
 
         sequence_branch = LSTM(256, return_sequences=True)(sequence_branch)
         sequence_branch = BatchNormalization()(sequence_branch)
-        sequence_branch = Dropout(0.7)(sequence_branch)
+        sequence_branch = Dropout(0.3)(sequence_branch)
 
     sequence_branch = GlobalAveragePooling1D()(sequence_branch)
 
     # --- Kinetic Feature Branch (Dense Layers) ---
     feature_out = Dense(32, activation='relu')(feature_input)
     feature_out = BatchNormalization()(feature_out)
-    feature_out = Dropout(0.7)(feature_out)
+    feature_out = Dropout(0.3)(feature_out)
 
     # --- Merge Branches ---
     merged = concatenate([sequence_branch, feature_out])
 
     # --- Final Dense Layers ---
     dense_out = Dense(64, activation='relu')(merged)
-    dense_out = Dropout(0.7)(dense_out)
+    dense_out = Dropout(0.3)(dense_out)
     output = Dense(num_peptides, activation='softmax')(dense_out)
 
     # --- Create and Compile Model ---
