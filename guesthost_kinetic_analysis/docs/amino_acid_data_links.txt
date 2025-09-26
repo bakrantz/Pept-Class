@@ -1,0 +1,50 @@
+https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/650/Hydrophobicity_scales.html
+
+https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-tools-and-calculators/proteins-and-amino-acids.html
+
+https://pubchem.ncbi.nlm.nih.gov/
+
+
+
+Refs
+
+Kyte, J. and Doolittle, R. F. (1982).
+A simple method for displaying the hydropathic character of a protein.
+J Mol Biol, 157(1):105-132.
+
+Hopp, T. P. and Woods, K. R. (1983).
+A computer program for predicting protein antigenic determinants.
+Mol Immunol, 20(4):483-489.
+
+Cornette, J. L., Cease, K. B., Margalit, H., Spouge, J. L., Berzofsky, J. A., and DeLisi, C. (1987).
+Hydrophobicity scales and computational techniques for detecting amphipathic structures in proteins.
+J Mol Biol, 195(3):659-685.
+
+Eisenberg, D., Schwarz, E., Komaromy, M., and Wall, R. (1984).
+Analysis of membrane and surface protein sequences with the hydrophobic moment plot.
+J Mol Biol, 179(1):125-142.
+
+Rose, G. D., Geselowitz, A. R., Lesser, G. J., Lee, R. H., and Zehfus, M. H. (1985).
+Hydrophobicity of amino acid residues in globular proteins.
+Science, 229(4716):834-838.
+
+Janin, J. (1979).
+Surface and inside volumes in globular proteins.
+Nature, 277(5696):491-492.
+
+Engelman, D. M., Steitz, T. A., and Goldman, A. (1986).
+Identifying nonpolar transbilayer helices in amino acid sequences of membrane proteins.
+Annu Rev Biophys Biophys Chem, 15:321-353.
+
+The Solubility of Amino Acids and Two Glycine Peptides in Aqueous Ethanol and Dioxane Solutions: ESTABLISHMENT OF A HYDROPHOBICITY SCALE
+Journal of Biological ChemistryVol. 246Issue 7p2211–2217Published online: April 10, 1971 
+Yasuhiko Nozaki Charles Tanford
+
+J Biol Chem
+. 1986 Jun 5;261(16):7220-2.
+The role of solvent polarity in the free energy of transfer of amino acid side chains from water to organic solvents
+S Damodaran, K B Song
+PMID: 3711086
+
+Getarea ref
+Fraczkiewicz, R. and Braun, W. (1998) "Exact and Efficient Analytical Calculation of the Accessible Surface Areas and Their Gradients for Macromolecules" J. Comp. Chem., 19, 319-333.

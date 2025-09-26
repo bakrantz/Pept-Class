@@ -1,0 +1,37 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<p><BODY bgColor=white>
+</p><p><meta name="Author" content="Surendra Negi">
+</p><p><meta name="Description" content="Solvent accessible surface area of molecule">
+</p><p><FONT face="courier, Arial, Helvetica, sans-serif" size=3> <font color="#000FFF">
+</p><p> <p align="center"><b>Query "106" for bkrantz@umaryland.edu submitted to webserver. </b> 
+</p><p> <hr> </p><p> <b> </p>*********************Thanks for using Getarea*********************<td><pre> Probe radius  :  1.400</pre></td>
+<td><pre></pre></td>
+<td><pre> ATOM  NAME  RESIDUE   AREA/ENERGY</pre></td>
+<td><pre>     1 N    ASP     1    36.01</pre></td>
+<td><pre>     2 H    ASP     1     0.00</pre></td>
+<td><pre>     3 CA   ASP     1    22.44</pre></td>
+<td><pre>     4 C    ASP     1    18.89</pre></td>
+<td><pre>     5 O    ASP     1    44.55</pre></td>
+<td><pre>     6 CB   ASP     1    46.24</pre></td>
+<td><pre>     7 CG   ASP     1     2.66</pre></td>
+<td><pre>     8 OD1  ASP     1    35.99</pre></td>
+<td><pre>     9 OD2  ASP     1    45.03</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> POLAR  area/energy         =          161.58</pre></td>
+<td><pre> APOLAR area/energy         =           90.23</pre></td>
+<td><pre> UNKNOW area/energy         =            0.00</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Total  area/energy         =          251.82</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Number of surface atoms    =            8</pre></td>
+<td><pre> Number of buried atoms     =            0</pre></td>
+<td><pre> Number of atoms with ASP=0 =            1</pre></td>
+*** Thanks for using Getarea. Please visit us again. http://curie.utmb.edu/*** 

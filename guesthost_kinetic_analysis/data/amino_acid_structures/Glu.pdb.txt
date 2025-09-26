@@ -1,0 +1,38 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<p><BODY bgColor=white>
+</p><p><meta name="Author" content="Surendra Negi">
+</p><p><meta name="Description" content="Solvent accessible surface area of molecule">
+</p><p><FONT face="courier, Arial, Helvetica, sans-serif" size=3> <font color="#000FFF">
+</p><p> <p align="center"><b>Query "104" for bkrantz@umaryland.edu submitted to webserver. </b> 
+</p><p> <hr> </p><p> <b> </p>*********************Thanks for using Getarea*********************<td><pre> Probe radius  :  1.400</pre></td>
+<td><pre></pre></td>
+<td><pre> ATOM  NAME  RESIDUE   AREA/ENERGY</pre></td>
+<td><pre>     1 N    GLU     1    35.11</pre></td>
+<td><pre>     2 H    GLU     1     0.00</pre></td>
+<td><pre>     3 CA   GLU     1    25.10</pre></td>
+<td><pre>     4 C    GLU     1    18.90</pre></td>
+<td><pre>     5 O    GLU     1    44.55</pre></td>
+<td><pre>     6 CB   GLU     1    30.19</pre></td>
+<td><pre>     7 CG   GLU     1    40.80</pre></td>
+<td><pre>     8 CD   GLU     1     2.81</pre></td>
+<td><pre>     9 OE1  GLU     1    37.34</pre></td>
+<td><pre>    10 OE2  GLU     1    45.03</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> POLAR  area/energy         =          162.02</pre></td>
+<td><pre> APOLAR area/energy         =          117.79</pre></td>
+<td><pre> UNKNOW area/energy         =            0.00</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Total  area/energy         =          279.81</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Number of surface atoms    =            9</pre></td>
+<td><pre> Number of buried atoms     =            0</pre></td>
+<td><pre> Number of atoms with ASP=0 =            1</pre></td>
+*** Thanks for using Getarea. Please visit us again. http://curie.utmb.edu/*** 

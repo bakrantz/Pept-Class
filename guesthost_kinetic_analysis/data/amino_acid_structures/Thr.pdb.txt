@@ -1,0 +1,35 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<p><BODY bgColor=white>
+</p><p><meta name="Author" content="Surendra Negi">
+</p><p><meta name="Description" content="Solvent accessible surface area of molecule">
+</p><p><FONT face="courier, Arial, Helvetica, sans-serif" size=3> <font color="#000FFF">
+</p><p> <p align="center"><b>Query "107" for bkrantz@umaryland.edu submitted to webserver. </b> 
+</p><p> <hr> </p><p> <b> </p>*********************Thanks for using Getarea*********************<td><pre> Probe radius  :  1.400</pre></td>
+<td><pre></pre></td>
+<td><pre> ATOM  NAME  RESIDUE   AREA/ENERGY</pre></td>
+<td><pre>     1 N    THR     1    32.90</pre></td>
+<td><pre>     2 CA   THR     1    25.50</pre></td>
+<td><pre>     3 C    THR     1    18.83</pre></td>
+<td><pre>     4 O    THR     1    43.45</pre></td>
+<td><pre>     5 CB   THR     1    22.76</pre></td>
+<td><pre>     6 OG1  THR     1    30.49</pre></td>
+<td><pre>     7 CG2  THR     1    74.40</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> POLAR  area/energy         =          106.83</pre></td>
+<td><pre> APOLAR area/energy         =          141.49</pre></td>
+<td><pre> UNKNOW area/energy         =            0.00</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Total  area/energy         =          248.33</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Number of surface atoms    =            7</pre></td>
+<td><pre> Number of buried atoms     =            0</pre></td>
+<td><pre> Number of atoms with ASP=0 =            0</pre></td>
+*** Thanks for using Getarea. Please visit us again. http://curie.utmb.edu/*** 
