@@ -1,0 +1,8 @@
+Nanopores,Mean accuracy,Std Dev accuracy,Mean macro_precision,Std Dev macro_precision,Mean macro_recall,Std Dev macro_recall,Mean macro_f1,Std Dev macro_f1
+WT,,,,,,,,
+F427A,,,,,,,,
+F427Y,,,,,,,,
+WT/F427A,,,,,,,,
+WT/F427Y,,,,,,,,
+F427A/F427Y,,,,,,,,
+WT/F427A/F427Y,,,,,,,,
