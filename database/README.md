@@ -6,7 +6,7 @@ There are two modules that have classes designed to access databases.
 
 The first contains meta data and filenames and paths to the raw data (.atf files) and conductance state labeled raw data (.csv files). You will need to update the paths for your filesystem on your computer. There is an update file paths method in PeptideDatabase.py.
 
-The second module contains meta data and filenames and paths to the processed translocation events .pkl files. There is a cache designed to prevent processing the same raw files repeatedly. You likely want to clear the files in peptide_events_data.json since the filepaths will be wrong on your computer. Just delete this json file and it will be recreated with appropriate paths. However, update filepaths using PeptideDatabase.py before worry about the events database. 
+The second module contains meta data and filenames and paths to the processed translocation events .pkl files. There is a cache designed to prevent processing the same raw files repeatedly. You likely want to clear the files in peptide_events_data.json since the filepaths will be wrong on your computer. Just delete this json file and it will be recreated with appropriate paths. However, update filepaths using PeptideDatabase.py before worrying about the events database. 
 
 ## Raw data
 
