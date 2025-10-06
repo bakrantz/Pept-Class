@@ -1,2 +1,1 @@
-Here are a supervised and unsuprevised machine- and deep-learning data processing pipeline for peptide classification from nanopore translocation events.
-There are also some kinetic and thermodynamic analysis scripts to analyze peptide translocation events quantitatively.
+Here are supervised and unsuprevised machine- and deep-learning data processing pipelines for peptide classification from single-channel nanopore translocation events. There are also some kinetic and thermodynamic analysis scripts to analyze peptide translocation events quantitatively.
