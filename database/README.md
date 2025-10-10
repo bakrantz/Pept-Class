@@ -4,9 +4,9 @@ There are two modules that have classes designed to access databases.
 	(1) PeptideDatabase.py
 	(2) PeptideEventsDatabase.py
 
-The first module contains meta data and filenames and paths to the raw data (.atf files) and conductance state labeled raw data (.csv files). You will need to update the paths for your filesystem on your computer. There is an update file paths method in PeptideDatabase.py, which will search the entire project root that you specify, and it will find the paths to the raw files in the json database file (called peptide_data.json). I would not delete peptide_data.json since it is mostly correct--just the paths are not going to be correct on your system.
+The first module accesses meta data and filenames and paths to the raw data (.atf files) and conductance state labeled raw data (.csv files). You will need to update the paths for your filesystem on your computer. There is an update file paths method in PeptideDatabase.py, which will search the entire project root that you specify, and it will find the paths to the raw files in the json database file (called peptide_data.json). I would not delete peptide_data.json since it is mostly correct--just the paths are not going to be correct on your system.
 
-The second module contains meta data and filenames and paths to the processed translocation events .pkl files. These .pkl files are cached to prevent processing the same raw files repeatedly. You likely want to clear the main database file in peptide_events_data.json since the filepaths will be wrong on your computer. Just delete this json file and it will be recreated with appropriate paths. 
+The second module accesses meta data and filenames and paths to the processed translocation events .pkl files. These .pkl files are cached to prevent processing the same raw files repeatedly. You likely want to clear the main database file in peptide_events_data.json since the filepaths will be wrong on your computer. Just delete this json file and it will be recreated with appropriate paths. 
 
 ## Raw data
 
