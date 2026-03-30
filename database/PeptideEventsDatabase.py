@@ -288,13 +288,15 @@ class PeptideTranslocationEvents:
                 pickle.dump(output_data, outfile)
             print(f"Prepared ML/DL data for {self.raw_record.peptide_name} saved successfully.")
 
+            universal_processed_path = os.path.dirname(output_pickle_filepath).replace(os.sep, '/')
+            
             processed_record = ProcessedPeptideData(
                 raw_record_id=self.raw_record._id,
                 peptide_name=self.raw_record.peptide_name,
                 data_file=self.raw_record.data_file,
                 processed_file=os.path.basename(output_pickle_filepath),
                 data_path=self.raw_record.data_path,
-                processed_path=os.path.dirname(output_pickle_filepath),
+                processed_path=universal_processed_path,
                 processing_params=self.processing_params,
                 user=self.raw_record.user,
                 simulation=self.raw_record.simulation,
@@ -359,7 +361,7 @@ class PeptideEventsDatabase:
 
     def _read_db(self):
         try:
-            with open(self.db_file, 'r') as f:
+            with open(self.db_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except json.JSONDecodeError:
             print(f"Warning: '{self.db_file}' is empty or corrupted. Reinitializing.")
@@ -367,7 +369,7 @@ class PeptideEventsDatabase:
             return []
 
     def _write_db(self, data):
-        with open(self.db_file, 'w') as f:
+        with open(self.db_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4)
 
     def add_processed_record(self, processed_data: ProcessedPeptideData):
@@ -487,6 +489,7 @@ class PeptideEventsDatabase:
         # Optionally delete the PKL file
         if delete_pkl_file and record_to_delete.processed_path and record_to_delete.processed_file:
             pkl_filepath = os.path.join(record_to_delete.processed_path, record_to_delete.processed_file)
+            pkl_filepath = os.path.normpath(pkl_filepath)
             if os.path.exists(pkl_filepath):
                 try:
                     os.remove(pkl_filepath)

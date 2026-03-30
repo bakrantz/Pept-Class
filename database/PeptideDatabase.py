@@ -107,7 +107,7 @@ class PeptideDatabase:
         Reads all records from the database file.
         """
         try:
-            with open(self.db_file, 'r') as f:
+            with open(self.db_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 if not isinstance(data, list):
                     print(f"WARNING: '{self.db_file}' content is not a list ({type(data)}). Reinitializing.")
@@ -129,7 +129,7 @@ class PeptideDatabase:
         Writes data to the database file.
         """
         try:
-            with open(self.db_file, 'w') as f:
+            with open(self.db_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4)
         except Exception as e:
             print(f"ERROR: Failed to write to database file {self.db_file}: {e}")
@@ -448,9 +448,11 @@ class PeptideDatabase:
         found_files_map = {} # Key: filename (str), Value: full_directory_path (str)
 
         for root, dirs, files in os.walk(base_search_directory):
+            # Convert Windows backslashes to universal forward slashes
+            universal_root = root.replace(os.sep, '/')
             for file in files:
                 if file not in found_files_map:
-                    found_files_map[file] = root
+                    found_files_map[file] = universal_root
 
         for i, record_dict in enumerate(records):
             current_data_file = record_dict.get('data_file')

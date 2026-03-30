@@ -38,7 +38,7 @@ def load_atf(filepath: str, header_row_index: int = 9) -> tuple[np.ndarray, np.n
         raise FileNotFoundError(f"File not found at '{filepath}'")
 
     all_lines = []
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding='utf-8') as f:
         all_lines = f.readlines()
 
     if len(all_lines) < header_row_index + 2: # At least header line + 1 data row
@@ -313,7 +313,7 @@ def save_downsampled_atf(output_filepath: str,
         raise ValueError("Downsampled time, current, and voltage arrays must all have the same length for saving.")
 
     try:
-        with open(output_filepath, 'w') as f:
+        with open(output_filepath, 'w', encoding='utf-8') as f:
             # Write header lines, preserving original formatting
             for line in header_lines:
                 f.write(line + '\n')

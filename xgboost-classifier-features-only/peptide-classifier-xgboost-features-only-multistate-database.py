@@ -5,6 +5,8 @@ import hashlib
 import os
 import sys
 import json
+import matplotlib
+matplotlib.use('Agg') # Forces headless rendering to prevent Windows GUI crashes
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -345,19 +347,20 @@ if __name__ == "__main__":
         'guesthost_Thr': 3,
         'guesthost_Trp': 4,
         'guesthost_TrpDL': 5,
-        'guesthost_Tyr': 6       
+        'guesthost_Tyr': 6,
+        'guesthost_His': 7
     }
     ordered_peptide_names = list(peptide_labels_encoding.keys())
     print(f"\nPeptides to include in model: {ordered_peptide_names}")
 
     # Use abbreviated names for the confusion matrix plot labels
-    peptide_plot_labels = ['Ala', 'Leu', 'Phe', 'Thr', 'Trp', 'TrpDL', 'Tyr']
+    peptide_plot_labels = ['Ala', 'Leu', 'Phe', 'Thr', 'Trp', 'TrpDL', 'Tyr', 'His']
 
     # 2. Load from databases and split the data
     # Database query to find proper raw peptide translocation stream files
     raw_db_query = {
         'experimental': True,
-        'nanopore_name': 'PA_F427Y',
+        'nanopore_name': 'PA',
         'voltage': 70,
         'time_sampling': 400,
         'peptide_conc': {'$gte': 5, '$lte': 20}
