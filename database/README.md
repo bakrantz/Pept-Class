@@ -20,3 +20,6 @@ Later work on PA F427A and PA F427Y used K-Means routine:
 
 Again later wild-type PA was labeled for conductance state with K-Means routine:
 	- https://doi.org/10.5281/zenodo.17143408
+
+Full analysis of all 20 canonical amino acids in guest-host peptide background for wild-type PA using K-Means labeling routine:
+	- https://doi.org/10.5281/zenodo.21453990
