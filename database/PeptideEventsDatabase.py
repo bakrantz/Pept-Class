@@ -29,7 +29,6 @@ from .PeptideDatabase import PeptideData, PeptideDatabase
 # --- PeptideTranslocationEvents Class Definitions ---
 @dataclass
 class ProcessedPeptideData:
-    # (No changes needed here from previous correction)
     # Fields without default values (must be provided during initialization)
     raw_record_id: str # The _id from the PeptideData record that this was derived from
     peptide_name: str
@@ -48,6 +47,14 @@ class ProcessedPeptideData:
     nanopore_name: Optional[str] = None
     voltage: Optional[float] = None
     buffer: Optional[str] = None
+    
+    # --- NEW METADATA FIELDS ---
+    ph_cis: Optional[float] = None
+    ph_trans: Optional[float] = None
+    salt: Optional[str] = None
+    salt_conc: Optional[float] = None
+    # ---------------------------
+    
     peptide_conc: Optional[float] = None
     raw_data_file: Optional[str] = None
     time_sampling: Optional[float] = None
@@ -304,6 +311,14 @@ class PeptideTranslocationEvents:
                 nanopore_name=self.raw_record.nanopore_name,
                 voltage=self.raw_record.voltage,
                 buffer=self.raw_record.buffer,
+                
+                # --- TRANSFER NEW METADATA FIELDS ---
+                ph_cis=getattr(self.raw_record, 'ph_cis', None),
+                ph_trans=getattr(self.raw_record, 'ph_trans', None),
+                salt=getattr(self.raw_record, 'salt', None),
+                salt_conc=getattr(self.raw_record, 'salt_conc', None),
+                # ------------------------------------
+                
                 peptide_conc=self.raw_record.peptide_conc,
                 raw_data_file=self.raw_record.raw_data_file,
                 time_sampling=self.raw_record.time_sampling,

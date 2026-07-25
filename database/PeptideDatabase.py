@@ -33,11 +33,16 @@ class PeptideData:
     nanopore_name: Optional[str] = None # Use 'PA' for wild type PA; for mutants of PA an example would be 'PA F427A'
     voltage: Optional[float] = None # units of mV
     buffer: Optional[str] = None # Use 'UBB' universal bilayer buffer or 'SCB' single-channel buffer or other abbreviation if needed
+    ph_cis: Optional[float] = None # pH of the cis chamber
+    ph_trans: Optional[float] = None # pH of the trans chamber
+    salt: Optional[str] = None # Type of salt used, e.g., 'KCl', 'NaCl'
+    salt_conc: Optional[float] = None # Salt concentration, e.g., units of mM or M
     peptide_conc: Optional[float] = None # units of nM
     time_sampling: Optional[float] = None # units of Hz
     added_noise: Optional[str] = None # Describes synthetic noise added to simulated data
     comments: str = "" # Optional field, defaults to empty string
 
+    
     def __post_init__(self):
         """
         Initializes _id and date fields after the dataclass is created.
