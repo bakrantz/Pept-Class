@@ -1,173 +1,425 @@
-﻿peptide_name,data_file,user,simulation,experimental,raw_data_file,data_path,peptide_sequence,nanopore_name,voltage,buffer,ph_cis,ph_trans,salt,salt_conc,peptide_conc,time_sampling,added_noise,comments,,,,,,,,,,,,
-guesthost_Trp,10d01001-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,10d01001-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,,,,,,,,,,,,,
-guesthost_Trp,11224005-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11224005-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,,,,,,,,,,,,,
-guesthost_Trp,11309001-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11309001-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11309001.abf,,,,,,,,,,,,
-guesthost_Trp,11309002-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,False,True,11309002-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf,,,,,,,,,,,,
-guesthost_Trp,11309002-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,False,True,11309002-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf,,,,,,,,,,,,
-guesthost_Trp,11309002-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,False,True,11309002-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf,,,,,,,,,,,,
-guesthost_Trp,11531000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11531000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,11531000.abf,,,,,,,,,,,,
-guesthost_Trp,11531000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11531000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531000.abf,,,,,,,,,,,,
-guesthost_Trp,11531001-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11531001-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531001.abf,,,,,,,,,,,,
-guesthost_Trp,11531001-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11531001-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531001.abf,,,,,,,,,,,,
-guesthost_Trp,11531002-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11531002-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531002.abf,,,,,,,,,,,,
-guesthost_Trp,11531003-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11531003-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531003.abf,,,,,,,,,,,,
-guesthost_Trp,11531004-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11531004-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531004.abf,,,,,,,,,,,,
-guesthost_Trp,11531005-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11531005-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf,,,,,,,,,,,,
-guesthost_Trp,11531005-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11531005-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf,,,,,,,,,,,,
-guesthost_Trp,11531005-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11531005-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf,,,,,,,,,,,,
-guesthost_Trp,11531006-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11531006-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf,,,,,,,,,,,,
-guesthost_Trp,11531006-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11531006-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf,,,,,,,,,,,,
-guesthost_Trp,11531006-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11531006-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11601000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11601000-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11601000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,False,True,11601000-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-60_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601000-guesthost_Trp-60_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-60_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601000-guesthost_Trp-60_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-80_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601000-guesthost_Trp-80_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-80_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601000-guesthost_Trp-80_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-50_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601001-guesthost_Trp-50_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-50_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601001-guesthost_Trp-50_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-60_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601001-guesthost_Trp-60_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-60_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601001-guesthost_Trp-60_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-80_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601001-guesthost_Trp-80_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601001-guesthost_Trp-80_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601001-guesthost_Trp-80_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf,,,,,,,,,,,,
-guesthost_Trp,11601003-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11601003-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11601003.abf,,,,,,,,,,,,
-guesthost_Trp,11601003-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11601003-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601003.abf,,,,,,,,,,,,
-guesthost_Trp,11601004-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11601004-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11601004.abf,,,,,,,,,,,,
-guesthost_Trp,11601004-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11601004-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601004.abf,,,,,,,,,,,,
-guesthost_Trp,11601005-guesthost_Trp-30_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601005-guesthost_Trp-30_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11601005.abf,,,,,,,,,,,,
-guesthost_Trp,11601005-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11601005-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601005.abf,,,,,,,,,,,,
-guesthost_Trp,11603000-guesthost_Trp-20_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11603000-guesthost_Trp-20_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf,,,,,,,,,,,,
-guesthost_Trp,11603000-guesthost_Trp-20_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11603000-guesthost_Trp-20_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf,,,,,,,,,,,,
-guesthost_Trp,11603000-guesthost_Trp-30_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11603000-guesthost_Trp-30_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf,,,,,,,,,,,,
-guesthost_Trp,11603000-guesthost_Trp-30_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11603000-guesthost_Trp-30_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf,,,,,,,,,,,,
-guesthost_Trp,11603000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11603000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11610000-guesthost_Trp-10_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11610000-guesthost_Trp-10_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_3.csv,jmcolby,False,True,11610000-guesthost_Trp-10_mV-400_Hz-rpt_3.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-15_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11610000-guesthost_Trp-15_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-15_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11610000-guesthost_Trp-15_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-25_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11610000-guesthost_Trp-25_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,25,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11610000-guesthost_Trp-25_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11610000-guesthost_Trp-25_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,25,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf,,,,,,,,,,,,
-guesthost_Trp,11d07000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11d07000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf,,,,,,,,,,,,
-guesthost_Trp,11d07000-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11d07000-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf,,,,,,,,,,,,
-guesthost_Trp,11d07000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11d07000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf,,,,,,,,,,,,
-guesthost_Trp,11d07000-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,False,True,11d07000-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf,,,,,,,,,,,,
-guesthost_Trp,11d07001-guesthost_Trp-15_mV-400_Hz.csv,jmcolby,False,True,11d07001-guesthost_Trp-15_mV-400_Hz.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11d07001.abf,,,,,,,,,,,,
-guesthost_Trp,11d07001-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,False,True,11d07001-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d07001.abf,,,,,,,,,,,,
-guesthost_Trp,11d07002-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,False,True,11d07002-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf,,,,,,,,,,,,
-guesthost_Trp,11d07002-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,False,True,11d07002-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf,,,,,,,,,,,,
-guesthost_Trp,11d07002-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,False,True,11d07002-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf,,,,,,,,,,,,
-guesthost_Trp,11d07002-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,False,True,11d07002-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf,,,,,,,,,,,,
-guesthost_Trp,11d08000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,False,True,11d08000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08000.abf,,,,,,,,,,,,
-guesthost_Trp,11d08001-guesthost_Trp-15_mV-400_Hz.csv,jmcolby,False,True,11d08001-guesthost_Trp-15_mV-400_Hz.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf,,,,,,,,,,,,
-guesthost_Trp,11d08001-guesthost_Trp-75_mV-400_Hz.csv,jmcolby,False,True,11d08001-guesthost_Trp-75_mV-400_Hz.atf,,KKKKKWWSWW,PA,75,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf,,,,,,,,,,,,
-guesthost_Trp,11d08001-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,False,True,11d08001-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf,,,,,,,,,,,,
-guesthost_Trp,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf,,,,,,,,,,,,
-guesthost_Trp,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf,,,,,,,,,,,,
-guesthost_Trp,11d08002-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,False,True,11d08002-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf,,,,,,,,,,,,
-guesthost_Trp,11d08003-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,False,True,11d08003-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf,,,,,,,,,,,,
-guesthost_Trp,11d08003-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,False,True,11d08003-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf,,,,,,,,,,,,
-guesthost_Trp,11d08003-guesthost_Trp-75_mV-400_Hz.csv,jmcolby,False,True,11d08003-guesthost_Trp-75_mV-400_Hz.atf,,KKKKKWWSWW,PA,75,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11601000-guesthost_Trp-70_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11601000-guesthost_Trp-70_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_3.csv,jmcolby,False,True,11601000-guesthost_Trp-70_mV-400_Hz-rpt_3.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_4.csv,jmcolby,False,True,11601000-guesthost_Trp-70_mV-400_Hz-rpt_4.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11531000-guesthost_Trp-70_mV-400_Hz-rpt_1.csv,jmcolby,False,True,11531000-guesthost_Trp-70_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,90,400,,,,,,,,,,,,,,
-guesthost_Trp,11531000-guesthost_Trp-70_mV-400_Hz-rpt_2.csv,jmcolby,False,True,11531000-guesthost_Trp-70_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,90,400,,,,,,,,,,,,,,
-guesthost_Trp,11531006-guesthost_Trp-70_MV-400_Hz-rpt_1.csv,jmcolby,False,True,11531006-guesthost_Trp-70_MV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11531006-guesthost_Trp-70_MV-400_Hz-rpt_2.csv,jmcolby,False,True,11531006-guesthost_Trp-70_MV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,,,,,,,,,,,,,
-guesthost_Trp,11601003-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,False,True,11601003-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,,,,,,,,,,,,,
-guesthost_Trp,11601004-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,False,True,11601004-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,,,,,,,,,,,,,
-guesthost_Trp,11601005-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,False,True,11601005-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,False,True,11n09001-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n09001.abf,,,,,,,,,,,,
-guesthost_Tyr,11n09004-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,False,True,11n09004-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n09004.abf,,,,,,,,,,,,
-guesthost_Tyr,11n09004-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,False,True,11n09004-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11n09004.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16001-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,False,True,11n16001-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n16001.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.csv,jmcolby,False,True,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.csv,jmcolby,False,True,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-75_mV-600_Hz.csv,jmcolby,False,True,11n16002-guesthost_Tyr-75_mV-600_Hz.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-80_mV-600_Hz.csv,jmcolby,False,True,11n16002-guesthost_Tyr-80_mV-600_Hz.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-15_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-15_mV-600_Hz.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-25_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-25_mV-600_Hz.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-30_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-30_mV-600_Hz.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-35_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-35_mV-600_Hz.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-50_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-50_mV-600_Hz.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-65_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-65_mV-600_Hz.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-75_mV-600_Hz.csv,jmcolby,False,True,11n16003-guesthost_Tyr-75_mV-600_Hz.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,False,True,11d02001-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-80_mV-600_Hz.csv,jmcolby,False,True,11d02001-guesthost_Tyr-80_mV-600_Hz.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-90_mV-600_Hz.csv,jmcolby,False,True,11d02001-guesthost_Tyr-90_mV-600_Hz.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-15_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-15_mV-600_Hz.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-25_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-25_mV-600_Hz.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-30_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-30_mV-600_Hz.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.csv,jmcolby,False,True,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.csv,jmcolby,False,True,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-50_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-50_mV-600_Hz.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,False,True,11d02003-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.csv,jmcolby,False,True,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.csv,jmcolby,False,True,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-90_mV-600_Hz.csv,bakrantz,False,True,11d02003-guesthost_Tyr-90_mV-600_Hz.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n09001-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-20_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09004-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n09004-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09004-guesthost_Tyr-20_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09004-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n09004-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09004-guesthost_Tyr-40_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16001-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16001-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16001-guesthost_Tyr-20_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,False,True,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,False,True,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-75_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16002-guesthost_Tyr-75_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-75_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16002-guesthost_Tyr-80_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16002-guesthost_Tyr-80_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-80_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-15_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-15_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-15_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-25_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-25_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-25_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-30_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-30_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-30_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-35_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-35_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-35_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-40_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-50_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-50_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-50_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-60_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-65_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-65_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-65_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n16003-guesthost_Tyr-75_mV-400_Hz-downsampled.csv,bakrantz,False,True,11n16003-guesthost_Tyr-75_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-75_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02001-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-60_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-80_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02001-guesthost_Tyr-80_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-80_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02001-guesthost_Tyr-90_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02001-guesthost_Tyr-90_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-90_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-15_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-15_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-15_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-25_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-25_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-25_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-30_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-30_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-30_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,False,True,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,False,True,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-40_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-50_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-50_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-50_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-60_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,False,True,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,False,True,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.atf,,,,,,,,,,,,
-guesthost_Tyr,11d02003-guesthost_Tyr-90_mV-400_Hz-downsampled.csv,bakrantz,False,True,11d02003-guesthost_Tyr-90_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-90_mV-600_Hz.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.csv,jmcolby,False,True,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.csv,jmcolby,False,True,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.csv,bakrantz,False,True,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,,,,,,,,,,,
-guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.csv,bakrantz,False,True,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,,,,,,,,,,,
+﻿peptide_name,data_file,user,simulation,experimental,raw_data_file,data_path,peptide_sequence,nanopore_name,voltage,buffer,ph_cis,ph_trans,salt,salt_conc,peptide_conc,time_sampling,added_noise,comments
+guesthost_Trp,10d01001-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,10d01001-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,
+guesthost_Trp,11224005-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11224005-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,
+guesthost_Trp,11309001-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11309001-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11309001.abf
+guesthost_Trp,11309002-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11309002-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf
+guesthost_Trp,11309002-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11309002-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf
+guesthost_Trp,11309002-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11309002-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,53,400,,11309002.abf
+guesthost_Trp,11531000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,90,400,,11531000.abf
+guesthost_Trp,11531000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531000.abf
+guesthost_Trp,11531001-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531001-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531001.abf
+guesthost_Trp,11531001-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531001-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531001.abf
+guesthost_Trp,11531002-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531002-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,90,400,,11531002.abf
+guesthost_Trp,11531003-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531003-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531003.abf
+guesthost_Trp,11531004-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531004-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,90,400,,11531004.abf
+guesthost_Trp,11531005-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531005-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf
+guesthost_Trp,11531005-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531005-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf
+guesthost_Trp,11531005-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531005-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11531005.abf
+guesthost_Trp,11531006-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531006-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf
+guesthost_Trp,11531006-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531006-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf
+guesthost_Trp,11531006-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11531006-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11531006.abf
+guesthost_Trp,11601000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-60_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-60_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-60_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-60_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-80_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-80_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601000-guesthost_Trp-80_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-80_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601000.abf
+guesthost_Trp,11601001-guesthost_Trp-50_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-50_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601001-guesthost_Trp-50_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-50_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601001-guesthost_Trp-60_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-60_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601001-guesthost_Trp-60_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-60_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601001-guesthost_Trp-80_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-80_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601001-guesthost_Trp-80_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601001-guesthost_Trp-80_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11601001.abf
+guesthost_Trp,11601003-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601003-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11601003.abf
+guesthost_Trp,11601003-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601003-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601003.abf
+guesthost_Trp,11601004-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601004-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11601004.abf
+guesthost_Trp,11601004-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601004-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601004.abf
+guesthost_Trp,11601005-guesthost_Trp-30_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601005-guesthost_Trp-30_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11601005.abf
+guesthost_Trp,11601005-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601005-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11601005.abf
+guesthost_Trp,11603000-guesthost_Trp-20_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11603000-guesthost_Trp-20_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf
+guesthost_Trp,11603000-guesthost_Trp-20_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11603000-guesthost_Trp-20_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf
+guesthost_Trp,11603000-guesthost_Trp-30_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11603000-guesthost_Trp-30_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf
+guesthost_Trp,11603000-guesthost_Trp-30_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11603000-guesthost_Trp-30_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf
+guesthost_Trp,11603000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11603000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,53,400,,11603000.abf
+guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-10_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-10_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-10_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-10_mV-400_Hz-rpt_3.atf,,KKKKKWWSWW,PA,10,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-15_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-15_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-15_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-15_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-25_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-25_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,25,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11610000-guesthost_Trp-25_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610000-guesthost_Trp-25_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,25,SCB,5.6,5.6,KCl,0.1,18,400,,11610000.abf
+guesthost_Trp,11d07000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf
+guesthost_Trp,11d07000-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07000-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf
+guesthost_Trp,11d07000-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07000-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf
+guesthost_Trp,11d07000-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07000-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d07000.abf
+guesthost_Trp,11d07001-guesthost_Trp-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07001-guesthost_Trp-15_mV-400_Hz.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11d07001.abf
+guesthost_Trp,11d07001-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07001-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d07001.abf
+guesthost_Trp,11d07002-guesthost_Trp-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07002-guesthost_Trp-30_mV-400_Hz.atf,,KKKKKWWSWW,PA,30,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf
+guesthost_Trp,11d07002-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07002-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf
+guesthost_Trp,11d07002-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07002-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf
+guesthost_Trp,11d07002-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d07002-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d07002.abf
+guesthost_Trp,11d08000-guesthost_Trp-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08000-guesthost_Trp-20_mV-400_Hz.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08000.abf
+guesthost_Trp,11d08001-guesthost_Trp-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08001-guesthost_Trp-15_mV-400_Hz.atf,,KKKKKWWSWW,PA,15,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf
+guesthost_Trp,11d08001-guesthost_Trp-75_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08001-guesthost_Trp-75_mV-400_Hz.atf,,KKKKKWWSWW,PA,75,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf
+guesthost_Trp,11d08001-guesthost_Trp-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08001-guesthost_Trp-80_mV-400_Hz.atf,,KKKKKWWSWW,PA,80,SCB,5.6,5.6,KCl,0.1,18,400,,11d08001.abf
+guesthost_Trp,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf
+guesthost_Trp,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d08002-guesthost_Trp-20_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,20,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf
+guesthost_Trp,11d08002-guesthost_Trp-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08002-guesthost_Trp-40_mV-400_Hz.atf,,KKKKKWWSWW,PA,40,SCB,5.6,5.6,KCl,0.1,18,400,,11d08002.abf
+guesthost_Trp,11d08003-guesthost_Trp-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08003-guesthost_Trp-50_mV-400_Hz.atf,,KKKKKWWSWW,PA,50,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf
+guesthost_Trp,11d08003-guesthost_Trp-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08003-guesthost_Trp-60_mV-400_Hz.atf,,KKKKKWWSWW,PA,60,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf
+guesthost_Trp,11d08003-guesthost_Trp-75_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11d08003-guesthost_Trp-75_mV-400_Hz.atf,,KKKKKWWSWW,PA,75,SCB,5.6,5.6,KCl,0.1,18,400,,11d08003.abf
+guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-70_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-70_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-70_mV-400_Hz-rpt_3.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11601000-guesthost_Trp-70_mV-400_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11601000-guesthost_Trp-70_mV-400_Hz-rpt_4.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11531000-guesthost_Trp-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11531000-guesthost_Trp-70_mV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,90,400,,
+guesthost_Trp,11531000-guesthost_Trp-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11531000-guesthost_Trp-70_mV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,90,400,,
+guesthost_Trp,11531006-guesthost_Trp-70_MV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11531006-guesthost_Trp-70_MV-400_Hz-rpt_1.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11531006-guesthost_Trp-70_MV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11531006-guesthost_Trp-70_MV-400_Hz-rpt_2.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,18,400,,
+guesthost_Trp,11601003-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601003-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,
+guesthost_Trp,11601004-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601004-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,
+guesthost_Trp,11601005-guesthost_Trp-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11601005-guesthost_Trp-70_mV-400_Hz.atf,,KKKKKWWSWW,PA,70,SCB,5.6,5.6,KCl,0.1,53,400,,
+guesthost_Tyr,11n09001-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n09001.abf
+guesthost_Tyr,11n09004-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n09004-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n09004.abf
+guesthost_Tyr,11n09004-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n09004-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11n09004.abf
+guesthost_Tyr,11n16001-guesthost_Tyr-20_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16001-guesthost_Tyr-20_mV-600_Hz.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,600,,11n16001.abf
+guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf
+guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf
+guesthost_Tyr,11n16002-guesthost_Tyr-75_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16002-guesthost_Tyr-75_mV-600_Hz.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf
+guesthost_Tyr,11n16002-guesthost_Tyr-80_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16002-guesthost_Tyr-80_mV-600_Hz.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,600,,11n16002.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-15_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-15_mV-600_Hz.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-25_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-25_mV-600_Hz.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-30_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-30_mV-600_Hz.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-35_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-35_mV-600_Hz.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-50_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-50_mV-600_Hz.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-65_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-65_mV-600_Hz.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11n16003-guesthost_Tyr-75_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11n16003-guesthost_Tyr-75_mV-600_Hz.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,600,,11n16003.abf
+guesthost_Tyr,11d02001-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02001-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf
+guesthost_Tyr,11d02001-guesthost_Tyr-80_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02001-guesthost_Tyr-80_mV-600_Hz.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf
+guesthost_Tyr,11d02001-guesthost_Tyr-90_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02001-guesthost_Tyr-90_mV-600_Hz.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,600,,11d02001.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-15_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-15_mV-600_Hz.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-25_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-25_mV-600_Hz.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-30_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-30_mV-600_Hz.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-40_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-40_mV-600_Hz.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-50_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-50_mV-600_Hz.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-60_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-60_mV-600_Hz.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11d02003-guesthost_Tyr-90_mV-600_Hz.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-90_mV-600_Hz.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,600,,11d02003.abf
+guesthost_Tyr,11n09001-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-20_mV-600_Hz.atf
+guesthost_Tyr,11n09004-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n09004-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09004-guesthost_Tyr-20_mV-600_Hz.atf
+guesthost_Tyr,11n09004-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n09004-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09004-guesthost_Tyr-40_mV-600_Hz.atf
+guesthost_Tyr,11n16001-guesthost_Tyr-20_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16001-guesthost_Tyr-20_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16001-guesthost_Tyr-20_mV-600_Hz.atf
+guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,FALSE,TRUE,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_1.atf
+guesthost_Tyr,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,FALSE,TRUE,11n16002-guesthost_Tyr-30_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-30_mV-600_Hz-rpt_2.atf
+guesthost_Tyr,11n16002-guesthost_Tyr-75_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16002-guesthost_Tyr-75_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-75_mV-600_Hz.atf
+guesthost_Tyr,11n16002-guesthost_Tyr-80_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16002-guesthost_Tyr-80_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16002-guesthost_Tyr-80_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-15_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-15_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-15_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-25_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-25_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-25_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-30_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-30_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-30_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-35_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-35_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-35_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-40_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-50_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-50_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-50_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-60_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-65_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-65_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-65_mV-600_Hz.atf
+guesthost_Tyr,11n16003-guesthost_Tyr-75_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11n16003-guesthost_Tyr-75_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,75,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n16003-guesthost_Tyr-75_mV-600_Hz.atf
+guesthost_Tyr,11d02001-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02001-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-60_mV-600_Hz.atf
+guesthost_Tyr,11d02001-guesthost_Tyr-80_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02001-guesthost_Tyr-80_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-80_mV-600_Hz.atf
+guesthost_Tyr,11d02001-guesthost_Tyr-90_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02001-guesthost_Tyr-90_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02001-guesthost_Tyr-90_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-15_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-15_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-15_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-25_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-25_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-25_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-30_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-30_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-30_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_1.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-35_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-35_mV-600_Hz-rpt_2.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-40_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-40_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-40_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-50_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-50_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-50_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-60_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-60_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-60_mV-600_Hz.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_1.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-65_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,65,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-65_mV-600_Hz-rpt_2.atf
+guesthost_Tyr,11d02003-guesthost_Tyr-90_mV-400_Hz-downsampled.csv,bakrantz,FALSE,TRUE,11d02003-guesthost_Tyr-90_mV-400_Hz-downsampled.atf,,KKKKKYYSYY,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11d02003-guesthost_Tyr-90_mV-600_Hz.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.csv,jmcolby,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.csv,jmcolby,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf
+guesthost_Tyr,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.csv,bakrantz,FALSE,TRUE,11n09001-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09001-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_1.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_2.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_3.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_4.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_5.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_5.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_6.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_6.atf
+guesthost_Tyr,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.csv,bakrantz,FALSE,TRUE,11n09002-guesthost_Tyr-70_mV-400_Hz-downsampled-rpt_7.atf,,KKKKKYYSYY,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,Downsampled 11n09002-guesthost_Tyr-70_mV-600_Hz-rpt_7.atf
+guesthost_Ala,11629000-guesthost_Ala-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629000-guesthost_Ala-22_mV-400_Hz.atf,,KKKKKAASAA,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11629000.abf
+guesthost_Ala,11629000-guesthost_Ala-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629000-guesthost_Ala-70_mV-400_Hz.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11629000.abf
+guesthost_Ala,11629001-guesthost_Ala-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629001-guesthost_Ala-20_mV-400_Hz.atf,,KKKKKAASAA,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11629001.abf
+guesthost_Ala,11629001-guesthost_Ala-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629001-guesthost_Ala-25_mV-400_Hz.atf,,KKKKKAASAA,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11629001.abf
+guesthost_Ala,11729001-guesthost_Ala-35_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-35_mV-400_Hz-rpt_1.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-35_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-35_mV-400_Hz-rpt_2.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-35_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-35_mV-400_Hz-rpt_3.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-35_mV-400_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-35_mV-400_Hz-rpt_4.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-30_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-30_mV-400_Hz-rpt_1.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-30_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-30_mV-400_Hz-rpt_2.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-40_mV-400_Hz.atf,,KKKKKAASAA,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-50_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-50_mV-400_Hz-rpt_1.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-50_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-50_mV-400_Hz-rpt_2.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-80_mV-400_Hz.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729001-guesthost_Ala-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729001-guesthost_Ala-70_mV-400_Hz.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11729001.abf
+guesthost_Ala,11729006-guesthost_Ala-80_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11729006-guesthost_Ala-80_mV-400_Hz-rpt_1.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729006.abf
+guesthost_Ala,11729006-guesthost_Ala-80_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11729006-guesthost_Ala-80_mV-400_Hz-rpt_2.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729006.abf
+guesthost_Ala,11729006-guesthost_Ala-80_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11729006-guesthost_Ala-80_mV-400_Hz-rpt_3.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729006.abf
+guesthost_Ala,11729006-guesthost_Ala-10_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729006-guesthost_Ala-10_mV-400_Hz.atf,,KKKKKAASAA,PA,10,SCB,5.6,5.6,KCl,0.1,20,400,,11729006.abf
+guesthost_Ala,11701004-guesthost_Ala-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11701004-guesthost_Ala-15_mV-400_Hz.atf,,KKKKKAASAA,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11701004.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-500_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-500_Hz-rpt_1.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,500,,11927003.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-500_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-500_Hz-rpt_2.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,500,,11927003.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-500_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-500_Hz-rpt_3.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,500,,11927003.abf
+guesthost_Ala,11702000-guesthost_Ala-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11702000-guesthost_Ala-30_mV-400_Hz.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11702000.abf
+guesthost_Ala,11702000-guesthost_Ala-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11702000-guesthost_Ala-27_mV-400_Hz.atf,,KKKKKAASAA,PA,27,SCB,5.6,5.6,KCl,0.1,20,400,,11702000.abf
+guesthost_Ala,11702000-guesthost_Ala-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11702000-guesthost_Ala-22_mV-400_Hz.atf,,KKKKKAASAA,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11702000.abf
+guesthost_Ala,11702000-guesthost_Ala-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11702000-guesthost_Ala-25_mV-400_Hz.atf,,KKKKKAASAA,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11702000.abf
+guesthost_Ala,11629004-guesthost_Ala-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-20_mV-400_Hz.atf,,KKKKKAASAA,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-30_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-30_mV-400_Hz-rpt_1.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-30_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-30_mV-400_Hz-rpt_2.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-40_mV-400_Hz.atf,,KKKKKAASAA,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-50_mV-400_Hz.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-27_mV-400_Hz.atf,,KKKKKAASAA,PA,27,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-22_mV-400_Hz.atf,,KKKKKAASAA,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-60_mV-400_Hz.atf,,KKKKKAASAA,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629004-guesthost_Ala-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629004-guesthost_Ala-70_mV-400_Hz.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11629004.abf
+guesthost_Ala,11629005-guesthost_Ala-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-15_mV-400_Hz.atf,,KKKKKAASAA,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-20_mV-400_Hz.atf,,KKKKKAASAA,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-40_mV-400_Hz.atf,,KKKKKAASAA,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-30_mV-400_Hz.atf,,KKKKKAASAA,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-80_mV-400_Hz.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-50_mV-400_Hz.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-35_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-35_mV-400_Hz.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-22_mV-400_Hz.atf,,KKKKKAASAA,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-60_mV-400_Hz.atf,,KKKKKAASAA,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11629005-guesthost_Ala-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11629005-guesthost_Ala-25_mV-400_Hz.atf,,KKKKKAASAA,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11629005.abf
+guesthost_Ala,11701001-guesthost_Ala-35_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11701001-guesthost_Ala-35_mV-400_Hz.atf,,KKKKKAASAA,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11701001.abf
+guesthost_Ala,11628005-guesthost_Ala-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628005-guesthost_Ala-20_mV-400_Hz.atf,,KKKKKAASAA,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11628005.abf
+guesthost_Ala,11628005-guesthost_Ala-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628005-guesthost_Ala-25_mV-400_Hz.atf,,KKKKKAASAA,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11628005.abf
+guesthost_Ala,11729003-guesthost_Ala-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729003-guesthost_Ala-80_mV-400_Hz.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729003.abf
+guesthost_Ala,11729003-guesthost_Ala-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729003-guesthost_Ala-50_mV-400_Hz.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11729003.abf
+guesthost_Ala,11729003-guesthost_Ala-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729003-guesthost_Ala-70_mV-400_Hz.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11729003.abf
+guesthost_Ala,11729004-guesthost_Ala-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729004-guesthost_Ala-40_mV-400_Hz.atf,,KKKKKAASAA,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11729004.abf
+guesthost_Ala,11729004-guesthost_Ala-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729004-guesthost_Ala-80_mV-400_Hz.atf,,KKKKKAASAA,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11729004.abf
+guesthost_Ala,11729004-guesthost_Ala-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729004-guesthost_Ala-50_mV-400_Hz.atf,,KKKKKAASAA,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11729004.abf
+guesthost_Ala,11729004-guesthost_Ala-10_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11729004-guesthost_Ala-10_mV-400_Hz.atf,,KKKKKAASAA,PA,10,SCB,5.6,5.6,KCl,0.1,20,400,,11729004.abf
+guesthost_Ala,11927000-guesthost_Ala-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11927000-guesthost_Ala-70_mV-600_Hz-rpt_1.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11927000.abf
+guesthost_Ala,11927000-guesthost_Ala-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11927000-guesthost_Ala-70_mV-600_Hz-rpt_2.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11927000.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_1.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11927003.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_2.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11927003.abf
+guesthost_Ala,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_3.csv,jmcolby,FALSE,TRUE,11927003-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11927003.abf
+guesthost_Ala,11927000-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_1.csv,jmcolby,FALSE,TRUE,11927000-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11927000.abf
+guesthost_Ala,11927000-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_2.csv,jmcolby,FALSE,TRUE,11927000-guesthost_Ala-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKAASAA,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11927000.abf
+guesthost_Leu,11628001-guesthost_Leu-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628001-guesthost_Leu-20_mV-400_Hz.atf,,KKKKKLLSLL,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11628001.abf
+guesthost_Leu,11628001-guesthost_Leu-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628001-guesthost_Leu-80_mV-400_Hz.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11628001.abf
+guesthost_Leu,11628001-guesthost_Leu-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628001-guesthost_Leu-70_mV-400_Hz.atf,,KKKKKLLSLL,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11628001.abf
+guesthost_Leu,11628000-guesthost_Leu-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628000-guesthost_Leu-15_mV-400_Hz.atf,,KKKKKLLSLL,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11628000.abf
+guesthost_Leu,11628000-guesthost_Leu-35_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11628000-guesthost_Leu-35_mV-400_Hz.atf,,KKKKKLLSLL,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11628000.abf
+guesthost_Leu,11627001-guesthost_Leu-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-20_mV-400_Hz.atf,,KKKKKLLSLL,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-40_mV-400_Hz.atf,,KKKKKLLSLL,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-30_mV-400_Hz.atf,,KKKKKLLSLL,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-80_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-80_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-80_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-80_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-50_mV-400_Hz.atf,,KKKKKLLSLL,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-60_mV-400_Hz.atf,,KKKKKLLSLL,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627001-guesthost_Leu-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627001-guesthost_Leu-70_mV-400_Hz.atf,,KKKKKLLSLL,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11627001.abf
+guesthost_Leu,11627000-guesthost_Leu-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627000-guesthost_Leu-70_mV-400_Hz.atf,,KKKKKLLSLL,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11627000.abf
+guesthost_Leu,11803001-guesthost_Leu-90_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-90_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-90_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-90_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-90_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-90_mV-400_Hz-rpt_3.atf,,KKKKKLLSLL,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-80_mV-400_Hz.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-10_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-10_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,10,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-10_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-10_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,10,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11803001-guesthost_Leu-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803001-guesthost_Leu-70_mV-400_Hz.atf,,KKKKKLLSLL,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11803001.abf
+guesthost_Leu,11627002-guesthost_Leu-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-15_mV-400_Hz.atf,,KKKKKLLSLL,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-20_mV-400_Hz.atf,,KKKKKLLSLL,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-60_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-60_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-60_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-60_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,60,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-35_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-35_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-35_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-35_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,35,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-40_mV-400_Hz.atf,,KKKKKLLSLL,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-30_mV-400_Hz.atf,,KKKKKLLSLL,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-80_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-80_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-80_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-80_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,80,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-50_mV-400_Hz.atf,,KKKKKLLSLL,PA,50,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-27_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-27_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,27,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-27_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-27_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,27,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-25_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-25_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-25_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-25_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,25,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-22_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-22_mV-400_Hz-rpt_1.atf,,KKKKKLLSLL,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-22_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-22_mV-400_Hz-rpt_2.atf,,KKKKKLLSLL,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Leu,11627002-guesthost_Leu-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11627002-guesthost_Leu-70_mV-400_Hz.atf,,KKKKKLLSLL,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11627002.abf
+guesthost_Phe,11803004-guesthost_Phe-15_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11803004-guesthost_Phe-15_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11803004.abf
+guesthost_Phe,11803004-guesthost_Phe-15_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11803004-guesthost_Phe-15_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11803004.abf
+guesthost_Phe,11803004-guesthost_Phe-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803004-guesthost_Phe-70_mV-400_Hz.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11803004.abf
+guesthost_Phe,11803003-guesthost_Phe-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-15_mV-400_Hz.atf,,KKKKKFFSFF,PA,15,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803003-guesthost_Phe-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-20_mV-400_Hz.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803003-guesthost_Phe-90_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-90_mV-400_Hz.atf,,KKKKKFFSFF,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803003-guesthost_Phe-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-27_mV-400_Hz.atf,,KKKKKFFSFF,PA,27,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803003-guesthost_Phe-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-22_mV-400_Hz.atf,,KKKKKFFSFF,PA,22,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803003-guesthost_Phe-10_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803003-guesthost_Phe-10_mV-400_Hz.atf,,KKKKKFFSFF,PA,10,SCB,5.6,5.6,KCl,0.1,20,400,,11803003.abf
+guesthost_Phe,11803002-guesthost_Phe-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-20_mV-400_Hz.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11803002-guesthost_Phe-90_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-90_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11803002-guesthost_Phe-90_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-90_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11803002-guesthost_Phe-90_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-90_mV-400_Hz-rpt_3.atf,,KKKKKFFSFF,PA,90,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11803002-guesthost_Phe-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-70_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11803002-guesthost_Phe-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11803002-guesthost_Phe-70_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11803002.abf
+guesthost_Phe,11620003-guesthost_Phe-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620003-guesthost_Phe-22_mV-400_Hz.atf,,KKKKKFFSFF,PA,22,SCB,5.6,5.6,KCl,0.1,19,400,,11620003.abf
+guesthost_Phe,11620003-guesthost_Phe-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620003-guesthost_Phe-25_mV-400_Hz.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11620003.abf
+guesthost_Phe,11620003-guesthost_Phe-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620003-guesthost_Phe-80_mV-400_Hz.atf,,KKKKKFFSFF,PA,80,SCB,5.6,5.6,KCl,0.1,19,400,,11620003.abf
+guesthost_Phe,11620002-guesthost_Phe-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620002-guesthost_Phe-20_mV-400_Hz.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,19,400,,11620002.abf
+guesthost_Phe,11620002-guesthost_Phe-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620002-guesthost_Phe-80_mV-400_Hz.atf,,KKKKKFFSFF,PA,80,SCB,5.6,5.6,KCl,0.1,19,400,,11620002.abf
+guesthost_Phe,11620005-guesthost_Phe-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-60_mV-400_Hz.atf,,KKKKKFFSFF,PA,60,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-40_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-40_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,40,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-40_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-40_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,40,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-35_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-35_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,35,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-35_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-35_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,35,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-25_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-25_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-25_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-25_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-25_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-25_mV-400_Hz-rpt_3.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-50_mV-400_Hz.atf,,KKKKKFFSFF,PA,50,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-27_mV-400_Hz.atf,,KKKKKFFSFF,PA,27,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-80_mV-400_Hz.atf,,KKKKKFFSFF,PA,80,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11620005-guesthost_Phe-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620005-guesthost_Phe-30_mV-400_Hz.atf,,KKKKKFFSFF,PA,30,SCB,5.6,5.6,KCl,0.1,19,400,,11620005.abf
+guesthost_Phe,11622001-guesthost_Phe-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622001-guesthost_Phe-22_mV-400_Hz.atf,,KKKKKFFSFF,PA,22,SCB,5.6,5.6,KCl,0.1,19,400,,11622001.abf
+guesthost_Phe,11622001-guesthost_Phe-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622001-guesthost_Phe-25_mV-400_Hz.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11622001.abf
+guesthost_Phe,11622001-guesthost_Phe-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622001-guesthost_Phe-20_mV-400_Hz.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,19,400,,11622001.abf
+guesthost_Phe,11622001-guesthost_Phe-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622001-guesthost_Phe-80_mV-400_Hz.atf,,KKKKKFFSFF,PA,80,SCB,5.6,5.6,KCl,0.1,19,400,,11622001.abf
+guesthost_Phe,11622001-guesthost_Phe-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622001-guesthost_Phe-30_mV-400_Hz.atf,,KKKKKFFSFF,PA,30,SCB,5.6,5.6,KCl,0.1,19,400,,11622001.abf
+guesthost_Phe,11622000-guesthost_Phe-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622000-guesthost_Phe-70_mV-400_Hz.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,19,400,,11622000.abf
+guesthost_Phe,11620000-guesthost_Phe-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-60_mV-400_Hz.atf,,KKKKKFFSFF,PA,60,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-22_mV-400_Hz.atf,,KKKKKFFSFF,PA,22,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-35_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-35_mV-400_Hz.atf,,KKKKKFFSFF,PA,35,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-70_mV-400_Hz.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-20_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-20_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-20_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-20_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,20,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-25_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-25_mV-400_Hz.atf,,KKKKKFFSFF,PA,25,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-40_mV-400_Hz.atf,,KKKKKFFSFF,PA,40,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-50_mV-400_Hz.atf,,KKKKKFFSFF,PA,50,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-27_mV-400_Hz.atf,,KKKKKFFSFF,PA,27,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620000-guesthost_Phe-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11620000-guesthost_Phe-30_mV-400_Hz.atf,,KKKKKFFSFF,PA,30,SCB,5.6,5.6,KCl,0.1,19,400,,11620000.abf
+guesthost_Phe,11620001-guesthost_Phe-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11620001-guesthost_Phe-70_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,19,400,,11620001.abf
+guesthost_Phe,11620001-guesthost_Phe-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11620001-guesthost_Phe-70_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,19,400,,11620001.abf
+guesthost_Phe,11622003-guesthost_Phe-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622003-guesthost_Phe-22_mV-400_Hz.atf,,KKKKKFFSFF,PA,22,SCB,5.6,5.6,KCl,0.1,19,400,,11622003.abf
+guesthost_Phe,11622003-guesthost_Phe-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622003-guesthost_Phe-70_mV-400_Hz.atf,,KKKKKFFSFF,PA,70,SCB,5.6,5.6,KCl,0.1,19,400,,11622003.abf
+guesthost_Phe,11622003-guesthost_Phe-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622003-guesthost_Phe-40_mV-400_Hz.atf,,KKKKKFFSFF,PA,40,SCB,5.6,5.6,KCl,0.1,19,400,,11622003.abf
+guesthost_Phe,11622003-guesthost_Phe-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622003-guesthost_Phe-80_mV-400_Hz.atf,,KKKKKFFSFF,PA,80,SCB,5.6,5.6,KCl,0.1,19,400,,11622003.abf
+guesthost_Phe,11622004-guesthost_Phe-15_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11622004-guesthost_Phe-15_mV-400_Hz-rpt_1.atf,,KKKKKFFSFF,PA,15,SCB,5.6,5.6,KCl,0.1,19,400,,11622004.abf
+guesthost_Phe,11622004-guesthost_Phe-15_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11622004-guesthost_Phe-15_mV-400_Hz-rpt_2.atf,,KKKKKFFSFF,PA,15,SCB,5.6,5.6,KCl,0.1,19,400,,11622004.abf
+guesthost_Phe,11622004-guesthost_Phe-35_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622004-guesthost_Phe-35_mV-400_Hz.atf,,KKKKKFFSFF,PA,35,SCB,5.6,5.6,KCl,0.1,19,400,,11622004.abf
+guesthost_Phe,11622004-guesthost_Phe-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11622004-guesthost_Phe-27_mV-400_Hz.atf,,KKKKKFFSFF,PA,27,SCB,5.6,5.6,KCl,0.1,19,400,,11622004.abf
+guesthost_Thr,11502005-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502005-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502005.abf
+guesthost_Thr,11502005-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502005-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502005.abf
+guesthost_Thr,11502005-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502005-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502005.abf
+guesthost_Thr,11615002-guesthost_Thr-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615002-guesthost_Thr-27_mV-400_Hz.atf,,KKKKKTTSTT,PA,27,SCB,5.6,5.6,KCl,0.1,74,400,,11615002.abf
+guesthost_Thr,11502003-guesthost_Thr-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502003-guesthost_Thr-80_mV-400_Hz.atf,,KKKKKTTSTT,PA,80,SCB,5.6,5.6,KCl,0.1,74,400,,11502003.abf
+guesthost_Thr,11502003-guesthost_Thr-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502003-guesthost_Thr-30_mV-400_Hz.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,74,400,,11502003.abf
+guesthost_Thr,11502004-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502004-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502004.abf
+guesthost_Thr,11615003-guesthost_Thr-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-15_mV-400_Hz.atf,,KKKKKTTSTT,PA,15,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11615003-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11615003-guesthost_Thr-25_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-25_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,25,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11615003-guesthost_Thr-25_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-25_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,25,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11615003-guesthost_Thr-27_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-27_mV-400_Hz.atf,,KKKKKTTSTT,PA,27,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11615003-guesthost_Thr-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615003-guesthost_Thr-30_mV-400_Hz.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,74,400,,11615003.abf
+guesthost_Thr,11523002-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523002-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11523002.abf
+guesthost_Thr,11523002-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523002-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,74,400,,11523002.abf
+guesthost_Thr,11610002-guesthost_Thr-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11610002-guesthost_Thr-15_mV-400_Hz.atf,,KKKKKTTSTT,PA,15,SCB,5.6,5.6,KCl,0.1,74,400,,11610002.abf
+guesthost_Thr,11614003-guesthost_Thr-15_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11614003-guesthost_Thr-15_mV-400_Hz.atf,,KKKKKTTSTT,PA,15,SCB,5.6,5.6,KCl,0.1,74,400,,11614003.abf
+guesthost_Thr,11614003-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11614003-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11614003.abf
+guesthost_Thr,11614003-guesthost_Thr-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11614003-guesthost_Thr-22_mV-400_Hz.atf,,KKKKKTTSTT,PA,22,SCB,5.6,5.6,KCl,0.1,74,400,,11614003.abf
+guesthost_Thr,11523003-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523003-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11523003.abf
+guesthost_Thr,11523003-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523003-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,74,400,,11523003.abf
+guesthost_Thr,11610003-guesthost_Thr-10_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-10_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,10,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-10_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-10_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,10,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-15_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-15_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,15,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-15_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-15_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,15,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-25_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-25_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,25,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-25_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-25_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,25,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11610003-guesthost_Thr-25_mV-400_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11610003-guesthost_Thr-25_mV-400_Hz-rpt_3.atf,,KKKKKTTSTT,PA,25,SCB,5.6,5.6,KCl,0.1,74,400,,11610003.abf
+guesthost_Thr,11518002-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518002-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518002.abf
+guesthost_Thr,11518002-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518002-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518002.abf
+guesthost_Thr,11504001-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11504001-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11504001.abf
+guesthost_Thr,11518003-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518003-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518003.abf
+guesthost_Thr,11518003-guesthost_Thr-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11518003-guesthost_Thr-70_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518003.abf
+guesthost_Thr,11518003-guesthost_Thr-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11518003-guesthost_Thr-70_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518003.abf
+guesthost_Thr,11d14001-guesthost_Thr-70_mV-600_Hz.csv,jmcolby,FALSE,TRUE,11d14001-guesthost_Thr-70_mV-600_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14001.abf
+guesthost_Thr,11502006-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502006-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502006.abf
+guesthost_Thr,11502006-guesthost_Thr-70_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11502006-guesthost_Thr-70_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502006.abf
+guesthost_Thr,11502006-guesthost_Thr-70_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11502006-guesthost_Thr-70_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502006.abf
+guesthost_Thr,11502006-guesthost_Thr-40_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11502006-guesthost_Thr-40_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502006.abf
+guesthost_Thr,11502006-guesthost_Thr-40_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11502006-guesthost_Thr-40_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,7.4,400,,11502006.abf
+guesthost_Thr,11615000-guesthost_Thr-22_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11615000-guesthost_Thr-22_mV-400_Hz.atf,,KKKKKTTSTT,PA,22,SCB,5.6,5.6,KCl,0.1,74,400,,11615000.abf
+guesthost_Thr,11502000-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502000-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,74,400,,11502000.abf
+guesthost_Thr,11502000-guesthost_Thr-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502000-guesthost_Thr-50_mV-400_Hz.atf,,KKKKKTTSTT,PA,50,SCB,5.6,5.6,KCl,0.1,74,400,,11502000.abf
+guesthost_Thr,11502000-guesthost_Thr-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11502000-guesthost_Thr-60_mV-400_Hz.atf,,KKKKKTTSTT,PA,60,SCB,5.6,5.6,KCl,0.1,74,400,,11502000.abf
+guesthost_Thr,11d13000-guesthost_Thr-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d13000-guesthost_Thr-70_mV-600_Hz-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d13000.abf
+guesthost_Thr,11d13000-guesthost_Thr-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d13000-guesthost_Thr-70_mV-600_Hz-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d13000.abf
+guesthost_Thr,11523001-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523001-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11523001.abf
+guesthost_Thr,11523001-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11523001-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,74,400,,11523001.abf
+guesthost_Thr,11610001-guesthost_Thr-10_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11610001-guesthost_Thr-10_mV-400_Hz.atf,,KKKKKTTSTT,PA,10,SCB,5.6,5.6,KCl,0.1,74,400,,11610001.abf
+guesthost_Thr,11503000-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11503000-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11503000.abf
+guesthost_Thr,11503000-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11503000-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11503000.abf
+guesthost_Thr,11503000-guesthost_Thr-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11503000-guesthost_Thr-30_mV-400_Hz.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11503000.abf
+guesthost_Thr,11504002-guesthost_Thr-20_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-20_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,11504002-guesthost_Thr-20_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-20_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,11504002-guesthost_Thr-30_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-30_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,11504002-guesthost_Thr-30_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-30_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,11504002-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,11504002-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11504002-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11504002.abf
+guesthost_Thr,110518001-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,110518001-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,Folder: 110518001
+guesthost_Thr,11518000-guesthost_Thr-20_mV-400_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11518000-guesthost_Thr-20_mV-400_Hz-rpt_1.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518000.abf
+guesthost_Thr,11518000-guesthost_Thr-20_mV-400_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11518000-guesthost_Thr-20_mV-400_Hz-rpt_2.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518000.abf
+guesthost_Thr,11518000-guesthost_Thr-70_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518000-guesthost_Thr-70_mV-400_Hz.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,7.4,400,,11518000.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_3.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_4.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_5.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-600_Hz-rpt_5.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14003.abf
+guesthost_Thr,11518001-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518001-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,74,400,,11518001.abf
+guesthost_Thr,11518001-guesthost_Thr-80_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518001-guesthost_Thr-80_mV-400_Hz.atf,,KKKKKTTSTT,PA,80,SCB,5.6,5.6,KCl,0.1,74,400,,11518001.abf
+guesthost_Thr,11518001-guesthost_Thr-50_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518001-guesthost_Thr-50_mV-400_Hz.atf,,KKKKKTTSTT,PA,50,SCB,5.6,5.6,KCl,0.1,74,400,,11518001.abf
+guesthost_Thr,11518001-guesthost_Thr-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518001-guesthost_Thr-30_mV-400_Hz.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,74,400,,11518001.abf
+guesthost_Thr,11518001-guesthost_Thr-60_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11518001-guesthost_Thr-60_mV-400_Hz.atf,,KKKKKTTSTT,PA,60,SCB,5.6,5.6,KCl,0.1,74,400,,11518001.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_1.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_2.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_3.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_3.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_4.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-600_Hz-rpt_4.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,600,,11d14002.abf
+guesthost_Thr,11430002-guesthost_Thr-40_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11430002-guesthost_Thr-40_mV-400_Hz.atf,,KKKKKTTSTT,PA,40,SCB,5.6,5.6,KCl,0.1,74,400,,11430002.abf
+guesthost_Thr,11430002-guesthost_Thr-20_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11430002-guesthost_Thr-20_mV-400_Hz.atf,,KKKKKTTSTT,PA,20,SCB,5.6,5.6,KCl,0.1,74,400,,11430002.abf
+guesthost_Thr,11430002-guesthost_Thr-30_mV-400_Hz.csv,jmcolby,FALSE,TRUE,11430002-guesthost_Thr-30_mV-400_Hz.atf,,KKKKKTTSTT,PA,30,SCB,5.6,5.6,KCl,0.1,74,400,,11430002.abf
+guesthost_Thr,11d14001-guesthost_Thr-70_mV-400_Hz-downsampled.csv,jmcolby,FALSE,TRUE,11d14001-guesthost_Thr-70_mV-400_Hz-downsampled.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14001.abf
+guesthost_Thr,11d13000-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.csv,jmcolby,FALSE,TRUE,11d13000-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d13000.abf
+guesthost_Thr,11d13000-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.csv,jmcolby,FALSE,TRUE,11d13000-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d13000.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_3.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_4.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14003.abf
+guesthost_Thr,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_5.csv,jmcolby,FALSE,TRUE,11d14003-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_5.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14003.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_1.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_2.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_3.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_3.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14002.abf
+guesthost_Thr,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_4.csv,jmcolby,FALSE,TRUE,11d14002-guesthost_Thr-70_mV-400_Hz-downsampled-rpt_4.atf,,KKKKKTTSTT,PA,70,SCB,5.6,5.6,KCl,0.1,20,400,,11d14002.abf
