@@ -1,0 +1,40 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<p><BODY bgColor=white>
+</p><p><meta name="Author" content="Surendra Negi">
+</p><p><meta name="Description" content="Solvent accessible surface area of molecule">
+</p><p><FONT face="courier, Arial, Helvetica, sans-serif" size=3> <font color="#000FFF">
+</p><p> <p align="center"><b>Query "103" for bkrantz@umaryland.edu submitted to webserver. </b> 
+</p><p> <hr> </p><p> <b> </p>*********************Thanks for using Getarea*********************<td><pre> Probe radius  :  1.400</pre></td>
+<td><pre></pre></td>
+<td><pre> ATOM  NAME  RESIDUE   AREA/ENERGY</pre></td>
+<td><pre>     1 N    TYR     1    31.48</pre></td>
+<td><pre>     2 CA   TYR     1    22.27</pre></td>
+<td><pre>     3 C    TYR     1    19.06</pre></td>
+<td><pre>     4 O    TYR     1    44.57</pre></td>
+<td><pre>     5 CB   TYR     1    36.79</pre></td>
+<td><pre>     6 CG   TYR     1     2.09</pre></td>
+<td><pre>     7 CD2  TYR     1    26.45</pre></td>
+<td><pre>     8 CD1  TYR     1    24.37</pre></td>
+<td><pre>     9 CE1  TYR     1    36.52</pre></td>
+<td><pre>    10 CZ   TYR     1    11.92</pre></td>
+<td><pre>    11 OH   TYR     1    40.16</pre></td>
+<td><pre>    12 CE2  TYR     1    36.54</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> POLAR  area/energy         =          116.22</pre></td>
+<td><pre> APOLAR area/energy         =          216.01</pre></td>
+<td><pre> UNKNOW area/energy         =            0.00</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Total  area/energy         =          332.22</pre></td>
+<td><pre> ---------------------------------------------</pre></td>
+<td><pre> Number of surface atoms    =           12</pre></td>
+<td><pre> Number of buried atoms     =            0</pre></td>
+<td><pre> Number of atoms with ASP=0 =            0</pre></td>
+*** Thanks for using Getarea. Please visit us again. http://curie.utmb.edu/*** 

@@ -1,0 +1,1 @@
+Note using Getarea server the single glycine PDB file generated in Chimera failed to return areas so a dipeptide of Gly-Gly was created in Chimera and Getarea returned SASA values per atom. The second C-terminal Gly was removed from that output.
