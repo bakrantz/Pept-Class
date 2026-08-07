@@ -1,0 +1,5 @@
+peptide_name,nanopore_name,voltage,peptide_conc,transition_from,transition_to,best_model,bic,r_squared,tau_mean,tau_mean_err,tau_fast,A_fast,tau_fast_err,A_fast_err,tau_middle,A_middle,tau_middle_err,A_middle_err,tau_slow,A_slow,tau_slow_err,A_slow_err
+guesthost_Leu,PA,90,20,0,2,1-exp,-68.4825,0.59741,1.5424,0.154688,1.5424,0.467891,0.154688,0.0341923,,,,,,,,
+guesthost_Leu,PA,90,20,0,3,1-exp,-16.9141,0.973116,0.034848,0.0040957,0.034848,0.87512,0.0040957,0.0877721,,,,,,,,
+guesthost_Leu,PA,90,20,2,0,1-exp,-23.5571,0.284425,0.00232291,0.000979805,0.00232291,1.1,0.000979805,0.538659,,,,,,,,
+guesthost_Leu,PA,90,20,2,3,2-exp,-821.6,0.919703,0.0113501,0.000299067,0.00488519,0.999999,0.00135939,0.410238,0.00857424,0.753995,0.000975943,0.482644,0.00857424,0.753995,0.000975943,0.482644

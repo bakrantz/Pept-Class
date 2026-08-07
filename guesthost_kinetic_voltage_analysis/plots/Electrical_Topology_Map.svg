@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="856.8pt" height="568.8pt" viewBox="0 0 856.8 568.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-25T16:12:14.559358</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 568.8 
+L 856.8 568.8 
+L 856.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 136.8 278.937717 
+L 331.2 278.937717 
+L 331.2 251.763945 
+L 136.8 251.763945 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #d3d3d3; opacity: 0.5; stroke: #d3d3d3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 331.2 278.937717 
+L 525.6 278.937717 
+L 525.6 251.763945 
+L 331.2 251.763945 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #808080; opacity: 0.5; stroke: #808080; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 525.6 278.937717 
+L 720 278.937717 
+L 720 251.763945 
+L 525.6 251.763945 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #d3d3d3; opacity: 0.5; stroke: #d3d3d3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 41.317493 152.912423 
+Q 234.00084 38.323811 425.468679 152.190555 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 423.378582 143.966718 
+L 425.468679 152.190555 
+L 417.244842 154.280651 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 426.830823 130.954141 
+Q 331.199552 55.684206 237.235197 129.642829 
+" style="fill: none; stroke: #d62728; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 245.660894 130.646636 
+L 237.235197 129.642829 
+L 238.239004 121.217132 
+" style="fill: none; stroke: #d62728; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 235.569177 133.444558 
+Q 331.200448 208.714494 425.164803 134.75587 
+" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 416.739106 133.752063 
+L 425.164803 134.75587 
+L 424.160996 143.181567 
+" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 235.284412 152.402165 
+Q 428.402122 -77.80796 620.383725 151.052873 
+" style="fill: none; stroke: #000000; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 621.124468 142.599986 
+L 620.383725 151.052873 
+L 611.930838 150.312131 
+" style="fill: none; stroke: #000000; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 624.517493 152.916976 
+Q 719.998767 96.640485 814.261693 152.197448 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 812.139209 143.981911 
+L 814.261693 152.197448 
+L 806.046155 154.319932 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial', sans-serif; text-anchor: middle" x="428.4" y="38.513772" transform="rotate(-0 428.4 38.513772)">Tryptophan (Trp) Topology: The Steric Choke</text>
+   </g>
+   <g id="text_2">
+    <text style="font-style: italic; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="234" y="224.590173" transform="rotate(-0 234 224.590173)">cis-Vestibule / Trapdoor</text>
+   </g>
+   <g id="text_3">
+    <!-- $\phi$-Clamp Bottleneck -->
+    <g transform="translate(381.2 224.590173)">
+     <text>
+      <tspan x="0" y="-0.40625" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'">ϕ</tspan>
+      <tspan x="6.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">-</tspan>
+      <tspan x="9.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">C</tspan>
+      <tspan x="17.148438" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">l</tspan>
+      <tspan x="19.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">a</tspan>
+      <tspan x="25.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">m</tspan>
+      <tspan x="34.379883" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">p</tspan>
+      <tspan x="40.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'"> </tspan>
+      <tspan x="43.266602" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">B</tspan>
+      <tspan x="50.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">o</tspan>
+      <tspan x="56.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">t</tspan>
+      <tspan x="59.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">t</tspan>
+      <tspan x="63.256836" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">l</tspan>
+      <tspan x="66.035156" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">e</tspan>
+      <tspan x="71.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">n</tspan>
+      <tspan x="77.705078" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">e</tspan>
+      <tspan x="83.266602" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">c</tspan>
+      <tspan x="88.828125" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">k</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="622.8" y="224.590173" transform="rotate(-0 622.8 224.590173)">trans Beta-Barrel</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 234 153.938367 
+C 247.748129 153.938367 260.935021 152.793087 270.656416 150.754762 
+C 280.377811 148.716436 285.84 145.951486 285.84 143.068858 
+C 285.84 140.186231 280.377811 137.42128 270.656416 135.382955 
+C 260.935021 133.34463 247.748129 132.19935 234 132.19935 
+C 220.251871 132.19935 207.064979 133.34463 197.343584 135.382955 
+C 187.622189 137.42128 182.16 140.186231 182.16 143.068858 
+C 182.16 145.951486 187.622189 148.716436 197.343584 150.754762 
+C 207.064979 152.793087 220.251871 153.938367 234 153.938367 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(215.965156 100.181331)">State 2</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(216.117266 111.9613)">(~50%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(190.3025 123.724769)">Dilated Trapdoor</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 428.4 153.938367 
+C 442.148129 153.938367 455.335021 152.793087 465.056416 150.754762 
+C 474.777811 148.716436 480.24 145.951486 480.24 143.068858 
+C 480.24 140.186231 474.777811 137.42128 465.056416 135.382955 
+C 455.335021 133.34463 442.148129 132.19935 428.4 132.19935 
+C 414.651871 132.19935 401.464979 133.34463 391.743584 135.382955 
+C 382.022189 137.42128 376.56 140.186231 376.56 143.068858 
+C 376.56 145.951486 382.022189 148.716436 391.743584 150.754762 
+C 401.464979 152.793087 414.651871 153.938367 428.4 153.938367 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #d62728; stroke: #d62728; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(410.365156 100.181331)">State 0</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(413.575781 111.9613)">(~0%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(394.778672 123.724769)">Steric Choke</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 622.8 153.938367 
+C 636.548129 153.938367 649.735021 152.793087 659.456416 150.754762 
+C 669.177811 148.716436 674.64 145.951486 674.64 143.068858 
+C 674.64 140.186231 669.177811 137.42128 659.456416 135.382955 
+C 649.735021 133.34463 636.548129 132.19935 622.8 132.19935 
+C 609.051871 132.19935 595.864979 133.34463 586.143584 135.382955 
+C 576.422189 137.42128 570.96 140.186231 570.96 143.068858 
+C 570.96 145.951486 576.422189 148.716436 586.143584 150.754762 
+C 595.864979 152.793087 609.051871 153.938367 622.8 153.938367 
+z
+" clip-path="url(#p384f4b7f61)" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(604.765156 100.181331)">State 1</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(604.917266 111.9613)">(~80%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(593.149844 123.724769)">Beta-Barrel</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(24.263438 139.596546)">Entry</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(27.264375 152.604921)">(cis)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(806.196562 139.675296)">Exit</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(798.533437 152.526171)">(trans)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(291.748437 106.273675)">Trapdoor Dilates</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(303.971094 116.982737)">(Moves cis)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #2ca02c" transform="translate(300.174219 174.142479)">Voltage Pulls</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #2ca02c" transform="translate(298.695312 184.982792)">(Moves trans)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="428.4" y="206.802032" transform="rotate(-0 428.4 206.802032)">Ratchet Advance</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_13">
+     <path d="M 68.04 81.620054 
+L 197.739375 81.620054 
+L 197.739375 49.891679 
+L 68.04 49.891679 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(72 62.283554)">THE SINGLE RATTLE</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(72 75.134429)">(Pure Steric Friction)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_14">
+    <path d="M 136.8 561.6 
+L 331.2 561.6 
+L 331.2 534.426228 
+L 136.8 534.426228 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #d3d3d3; opacity: 0.5; stroke: #d3d3d3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 331.2 561.6 
+L 525.6 561.6 
+L 525.6 534.426228 
+L 331.2 534.426228 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #808080; opacity: 0.5; stroke: #808080; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 525.6 561.6 
+L 720 561.6 
+L 720 534.426228 
+L 525.6 534.426228 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #d3d3d3; opacity: 0.5; stroke: #d3d3d3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 41.317493 435.574707 
+Q 234.00084 320.986094 425.468679 434.852838 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 423.378582 426.629001 
+L 425.468679 434.852838 
+L 417.244842 436.942935 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 426.830823 413.616424 
+Q 331.199552 338.346489 237.235197 412.305113 
+" style="fill: none; stroke: #d62728; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 245.660894 413.30892 
+L 237.235197 412.305113 
+L 238.239004 403.879416 
+" style="fill: none; stroke: #d62728; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 235.569177 416.106842 
+Q 331.200448 491.376777 425.164803 417.418153 
+" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 416.739106 416.414346 
+L 425.164803 417.418153 
+L 424.160996 425.84385 
+" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 235.284412 435.064448 
+Q 428.402122 204.854324 620.383725 433.715157 
+" style="fill: none; stroke: #000000; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 621.124468 425.26227 
+L 620.383725 433.715157 
+L 611.930838 432.974414 
+" style="fill: none; stroke: #000000; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 624.517493 435.579259 
+Q 719.998767 379.302769 814.261693 434.859732 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 812.139209 426.644194 
+L 814.261693 434.859732 
+L 806.046155 436.982216 
+" style="fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 621.515588 413.325431 
+Q 428.397878 183.115306 236.643496 411.705269 
+" style="fill: none; stroke: #1f77b4; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 245.096383 410.964527 
+L 236.643496 411.705269 
+L 235.902753 403.252382 
+" style="fill: none; stroke: #1f77b4; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial', sans-serif; text-anchor: middle" x="428.4" y="321.176055" transform="rotate(-0 428.4 321.176055)">Tyrosine (Tyr) Topology: The Leaky Ratchet</text>
+   </g>
+   <g id="text_15">
+    <text style="font-style: italic; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="234" y="507.252457" transform="rotate(-0 234 507.252457)">cis-Vestibule / Trapdoor</text>
+   </g>
+   <g id="text_16">
+    <!-- $\phi$-Clamp Bottleneck -->
+    <g transform="translate(381.2 507.252457)">
+     <text>
+      <tspan x="0" y="-0.40625" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'">ϕ</tspan>
+      <tspan x="6.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">-</tspan>
+      <tspan x="9.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">C</tspan>
+      <tspan x="17.148438" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">l</tspan>
+      <tspan x="19.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">a</tspan>
+      <tspan x="25.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">m</tspan>
+      <tspan x="34.379883" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">p</tspan>
+      <tspan x="40.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'"> </tspan>
+      <tspan x="43.266602" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">B</tspan>
+      <tspan x="50.488281" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">o</tspan>
+      <tspan x="56.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">t</tspan>
+      <tspan x="59.926758" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">t</tspan>
+      <tspan x="63.256836" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">l</tspan>
+      <tspan x="66.035156" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">e</tspan>
+      <tspan x="71.59668" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">n</tspan>
+      <tspan x="77.705078" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">e</tspan>
+      <tspan x="83.266602" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">c</tspan>
+      <tspan x="88.828125" y="-0.40625" style="font-weight: 700; font-size: 10px; font-family: 'Arial'">k</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_17">
+    <text style="font-style: italic; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="622.8" y="507.252457" transform="rotate(-0 622.8 507.252457)">trans Beta-Barrel</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 234 436.60065 
+C 247.748129 436.60065 260.935021 435.45537 270.656416 433.417045 
+C 280.377811 431.37872 285.84 428.613769 285.84 425.731142 
+C 285.84 422.848514 280.377811 420.083564 270.656416 418.045238 
+C 260.935021 416.006913 247.748129 414.861633 234 414.861633 
+C 220.251871 414.861633 207.064979 416.006913 197.343584 418.045238 
+C 187.622189 420.083564 182.16 422.848514 182.16 425.731142 
+C 182.16 428.613769 187.622189 431.37872 197.343584 433.417045 
+C 207.064979 435.45537 220.251871 436.60065 234 436.60065 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #2ca02c; stroke: #2ca02c; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(215.965156 382.843615)">State 2</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(216.117266 394.623583)">(~50%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(190.3025 406.387052)">Dilated Trapdoor</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 428.4 436.60065 
+C 442.148129 436.60065 455.335021 435.45537 465.056416 433.417045 
+C 474.777811 431.37872 480.24 428.613769 480.24 425.731142 
+C 480.24 422.848514 474.777811 420.083564 465.056416 418.045238 
+C 455.335021 416.006913 442.148129 414.861633 428.4 414.861633 
+C 414.651871 414.861633 401.464979 416.006913 391.743584 418.045238 
+C 382.022189 420.083564 376.56 422.848514 376.56 425.731142 
+C 376.56 428.613769 382.022189 431.37872 391.743584 433.417045 
+C 401.464979 435.45537 414.651871 436.60065 428.4 436.60065 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #d62728; stroke: #d62728; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(410.365156 382.843615)">State 0</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(413.575781 394.623583)">(~0%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(394.778672 406.387052)">Steric Choke</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 622.8 436.60065 
+C 636.548129 436.60065 649.735021 435.45537 659.456416 433.417045 
+C 669.177811 431.37872 674.64 428.613769 674.64 425.731142 
+C 674.64 422.848514 669.177811 420.083564 659.456416 418.045238 
+C 649.735021 416.006913 636.548129 414.861633 622.8 414.861633 
+C 609.051871 414.861633 595.864979 416.006913 586.143584 418.045238 
+C 576.422189 420.083564 570.96 422.848514 570.96 425.731142 
+C 570.96 428.613769 576.422189 431.37872 586.143584 433.417045 
+C 595.864979 435.45537 609.051871 436.60065 622.8 436.60065 
+z
+" clip-path="url(#p512c687b1b)" style="fill: #1f77b4; stroke: #1f77b4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(604.765156 382.843615)">State 1</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(604.917266 394.623583)">(~80%)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial', sans-serif" transform="translate(593.149844 406.387052)">Beta-Barrel</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(24.263438 422.258829)">Entry</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(27.264375 435.267204)">(cis)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(806.196562 422.337579)">Exit</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif" transform="translate(798.533437 435.188454)">(trans)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(291.748437 388.935958)">Trapdoor Dilates</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #d62728" transform="translate(303.971094 399.645021)">(Moves cis)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #2ca02c" transform="translate(300.174219 456.804763)">Voltage Pulls</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #2ca02c" transform="translate(298.695312 467.645075)">(Moves trans)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="428.4" y="489.464315" transform="rotate(-0 428.4 489.464315)">Ratchet Advance</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #1f77b4" transform="translate(390.63125 361.762187)">H-Bond Friction</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', sans-serif; fill: #1f77b4" transform="translate(389.790625 372.471249)">(Pops Trapdoor)</text>
+   </g>
+   <g id="text_27">
+    <g id="patch_26">
+     <path d="M 68.04 364.282338 
+L 231.66 364.282338 
+L 231.66 332.553963 
+L 68.04 332.553963 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif; fill: #1f77b4" transform="translate(72 344.945838)">THE DOUBLE RATTLE</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif; fill: #1f77b4" transform="translate(72 357.796713)">(Steric + Chemical Friction)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p384f4b7f61">
+   <rect x="7.2" y="7.2" width="842.4" height="271.737717"/>
+  </clipPath>
+  <clipPath id="p512c687b1b">
+   <rect x="7.2" y="289.862283" width="842.4" height="271.737717"/>
+  </clipPath>
+ </defs>
+</svg>
