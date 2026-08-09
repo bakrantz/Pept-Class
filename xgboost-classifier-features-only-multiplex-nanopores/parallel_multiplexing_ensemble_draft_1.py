@@ -201,12 +201,12 @@ def load_translocation_data_from_database(
 
 def visualize_confusion_matrix(confusion_matrix, class_names, filename="confusion_matrix.png"):
     plt.figure(figsize=(10, 9))
-    sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues",
+    sns.heatmap(confusion_matrix, annot=True, fmt=".2f", cmap="Blues",
                 xticklabels=class_names, yticklabels=class_names,
                 annot_kws={"size": 10})
     plt.xlabel('Predicted Peptide', fontsize=14)
     plt.ylabel('True Peptide', fontsize=14)
-    plt.title('20-Class Periodic Table Confusion Matrix', fontsize=16)
+    plt.title('20-Class Periodic Table Confusion Matrix (Meta-Classifier)', fontsize=16)
     plt.xticks(fontsize=12, rotation=45)
     plt.yticks(fontsize=12, rotation=0)
     plt.tight_layout()
@@ -275,11 +275,6 @@ def main():
     
     print("\n--- STEP 1: Training Nanopore-Specific Level 1 Property Detectors ---")
     
-    # [PARICHIT - ML ARCHITECTURE NOTE]: 
-    # To prevent Data Leakage in Stacking, we MUST use Out-of-Fold (OOF) predictions 
-    # for the training set. If we train L1 on X_train and predict on X_train, the Meta-Classifier 
-    # will overfit to falsely confident probabilities.
-    
     # Dictionaries to hold final trained L1 models (for inference on test set)
     level1_classifiers = {n: {} for n in nanopore_names_for_ensemble}
     
@@ -290,6 +285,9 @@ def main():
     oof_helix_train = np.zeros((len(X_train_full), len(nanopore_names_for_ensemble)))
 
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=random_state)
+    
+    # FIXED: Define the combined_labels_train array BEFORE looping to use for K-Fold stratification
+    combined_labels_train = np.array([f"{y}_{n}" for y, n in zip(y_train_full, nanopore_train)])
     
     for n_idx, nanopore_name in enumerate(nanopore_names_for_ensemble):
         print(f"\n  -> Training Level 1 Specialists & Generating OOF Predictions for {nanopore_name}...")
@@ -310,7 +308,7 @@ def main():
         xgb_helix = xgb.XGBClassifier(objective='binary:logistic', n_estimators=500, max_depth=4, random_state=random_state, n_jobs=-1)
 
         # Generate OOF probabilities by splitting the X_train_full
-        for train_index, val_index in skf.split(X_train_full, combined_labels):
+        for train_index, val_index in skf.split(X_train_full, combined_labels_train):
             # Train only on the specific nanopore data WITHIN this fold
             fold_train_mask = (nanopore_train[train_index] == n_idx)
             X_fold_train = X_train_full[train_index][fold_train_mask]
@@ -374,13 +372,13 @@ def main():
     print("\n--- STEP 4: Evaluation and Reporting ---")
     y_pred = meta_classifier.predict(X_test_meta)
     
-    cm = confusion_matrix(y_test_full, y_pred)
+    # We output a normalized confusion matrix so we can clearly see the percentages per class
+    cm = confusion_matrix(y_test_full, y_pred, normalize='true')
     acc = accuracy_score(y_test_full, y_pred)
     f1 = f1_score(y_test_full, y_pred, average='macro', zero_division=0)
     precision_macro_peptide = precision_score(y_test_full, y_pred, average='macro', zero_division=0)
     recall_macro_peptide = recall_score(y_test_full, y_pred, average='macro', zero_division=0)
     
-    # FIX: Dynamically filter target names to prevent sklearn errors if a class is missing in test split
     unique_test_classes = np.unique(np.concatenate((y_test_full, y_pred)))
     target_names_test = [peptide_names_list[i] for i in unique_test_classes]
 
