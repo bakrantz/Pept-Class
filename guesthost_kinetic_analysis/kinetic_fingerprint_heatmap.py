@@ -88,7 +88,7 @@ def generate_fingerprint_heatmap(results_dir='./results/'):
 
     # 4. Plot the Heatmap
     sns.set_theme(style="white", context="paper")
-    fig, ax = plt.subplots(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(10, 5))
     
     # Using 'vlag' or 'coolwarm' as a diverging colormap
     # Dark red = Slow transition (High barrier)
@@ -106,7 +106,7 @@ def generate_fingerprint_heatmap(results_dir='./results/'):
     )
     
     # Formatting
-    ax.set_title(r"High-Dimensional Thermodynamic Fingerprint of the $\phi$-Clamp", fontsize=16, fontweight='bold', pad=15)
+    ax.set_title(r"High-Dimensional Kinetic Fingerprint of the $\phi$-Clamp", fontsize=16, fontweight='bold', pad=15)
     ax.set_xlabel("Guest Amino Acid", fontsize=14, fontweight='bold', labelpad=10)
     ax.set_ylabel("Kinetic State Transition", fontsize=14, fontweight='bold', labelpad=10)
     
@@ -118,13 +118,13 @@ def generate_fingerprint_heatmap(results_dir='./results/'):
     # 5. Save the output
     out_dir = './plots'
     os.makedirs(out_dir, exist_ok=True)
-    svg_out = os.path.join(out_dir, "Thermodynamic_Fingerprint_Heatmap.svg")
-    png_out = os.path.join(out_dir, "Thermodynamic_Fingerprint_Heatmap.png")
+    svg_out = os.path.join(out_dir, "Kinetic_Fingerprint_Heatmap.svg")
+    png_out = os.path.join(out_dir, "Kinetic_Fingerprint_Heatmap.png")
     
     plt.savefig(svg_out, format="svg", bbox_inches="tight")
     plt.savefig(png_out, format="png", dpi=300, bbox_inches="tight")
     
-    print(f"✅ Success! Thermodynamic Heatmap generated.")
+    print(f"✅ Success! Kinetic Heatmap generated.")
     print(f"📁 Vector SVG: {svg_out}")
     print(f"📁 High-Res PNG: {png_out}")
 
