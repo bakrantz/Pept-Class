@@ -222,33 +222,33 @@ class PeptideTranslocationEvents:
             print(f"Warning: Unknown 'low_pass_filter_type': {low_pass_type}. No additional low-pass filter applied.")
         # --- END NEW LOW-PASS FILTERING LOGIC ---
 
+
+            
         # Scale the current (apply to `current_for_segmentation` after all filtering)
         if current_for_segmentation.size > 0:
-            # --- ROBUST PERCENTILE SCALING (Zinger-Proof) ---
-            # Using 99.9th and 0.1st percentiles instead of np.max/np.min.
-            # This completely blinds the scaler to massive out-of-range electrical zinger artifacts,
-            # capturing the true thermodynamic states without manual Clampfit curation.
-            
-            robust_max = np.percentile(current_for_segmentation, 99.9)
-            if robust_max > 0:
-                print("Aligning robust open pore baseline exactly to 0 pA (ignoring positive spikes).")
-                current_for_segmentation = current_for_segmentation - robust_max
-            
-            robust_min = np.percentile(current_for_segmentation, 0.1)
-            
-            if robust_min < 0:
-                print("Translating trace using robust maximum depth (Open = 1.0, Closed = 0.0).")
-                # Any massive negative spikes will just scale to slightly below 0.0.
-                scaled_filtered_current = (current_for_segmentation / np.abs(robust_min)) + 1.0
+            # Next logic deals with different cases regarding the sign distribution of the signal when different offsets are applied
+            if np.max(current_for_segmentation) > 0: # If the max current is positive (or very close to 0)
+                print("Case 2: Current trace straddles 0 pA. Shifting to all negative values.")
+                max_current_value = np.max(current_for_segmentation)
+                # Subtract this max value to shift the entire trace so that this point becomes 0 pA,
+                # and all other values become negative (or more negative).
+                current_for_segmentation = current_for_segmentation - max_current_value
             else:
-                scaled_filtered_current = current_for_segmentation + 1.0
-            # --- END ROBUST SCALING ---
+                print("Case 1: Current trace is already all negative. Proceeding as is.")
+                # No offset needed, as it's already in the desired negative range.
+                pass
+            # Scale the absolute value of the signal
+            scaler = MinMaxScaler()
+            scaled_filtered_current = scaler.fit_transform(np.abs(current_for_segmentation).reshape(-1, 1)).flatten()
         else:
             print(f"Warning: Corrected current data for {self.raw_record.peptide_name} is empty, cannot scale. Aborting processing.")
             return None
 
-        print(f"Current data for {self.raw_record.peptide_name} scaled.")        
+        print(f"Current data for {self.raw_record.peptide_name} scaled.")
 
+
+
+        
         try:
             event_currents, state_sequences, open_state = segment_translocations(
                 scaled_filtered_current,
